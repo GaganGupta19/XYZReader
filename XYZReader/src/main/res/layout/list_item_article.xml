@@ -39,7 +39,8 @@
                 android:textColor="@android:color/white"
                 android:textStyle="bold"
                 android:ellipsize="end"
-                android:maxLines="4" />
+                android:maxLines="4"
+                android:fontFamily="serif-monospace"/>
 
             <TextView
                 android:id="@+id/article_subtitle"
@@ -52,6 +53,7 @@
                 android:textColor="#fff"
                 android:maxLines="1"
                 android:singleLine="true"
+                android:fontFamily="serif-monospace"
                 android:ellipsize="end" />
         </LinearLayout>
     </LinearLayout>
